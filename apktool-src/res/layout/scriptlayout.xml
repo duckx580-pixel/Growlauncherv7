@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@id/impor" android:padding="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:fb_defaultColor="#ff7ab800" app:fb_focusColor="#ffffffff" app:fb_fontIconResource="" app:fb_iconPosition="left" app:fb_radius="30.0dip" app:fb_text="" app:fb_textColor="#ffffffff" />
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@id/addnew" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:fb_defaultColor="#ff7ab800" app:fb_focusColor="#ffffffff" app:fb_fontIconResource="" app:fb_iconPosition="left" app:fb_radius="200.0dip" app:fb_text="" app:fb_textColor="#ffffffff" />
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@id/refresh" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:fb_defaultColor="#ff7ab800" app:fb_focusColor="#ffffffff" app:fb_fontIconResource="" app:fb_iconPosition="left" app:fb_radius="200.0dip" app:fb_text="" app:fb_textColor="#ffffffff" />
+        <mehdi.sakout.fancybuttons.FancyButton android:id="@id/back" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:fb_defaultColor="#ff7ab800" app:fb_focusColor="#ffffffff" app:fb_fontIconResource="" app:fb_iconPosition="left" app:fb_radius="200.0dip" app:fb_text="Back" app:fb_textColor="#ffffffff" />
+    </LinearLayout>
+</RelativeLayout>

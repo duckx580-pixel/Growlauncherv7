@@ -1,0 +1,99 @@
+.class public final synthetic Lcom/google/android/gms/internal/measurement/a;
+.super Ljava/lang/Object;
+.source "r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3"
+
+# interfaces
+.implements Ljava/util/concurrent/Callable;
+
+
+# instance fields
+.field public final synthetic i:I
+
+.field public final synthetic r:Lcom/google/android/gms/internal/measurement/h0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/h0;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lcom/google/android/gms/internal/measurement/a;->i:I
+
+    .line 2
+    .line 3
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/a;->r:Lcom/google/android/gms/internal/measurement/h0;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final call()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/a;->i:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, Lcom/google/android/gms/internal/measurement/l4;
+
+    .line 7
+    .line 8
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/a;->r:Lcom/google/android/gms/internal/measurement/h0;
+
+    .line 9
+    .line 10
+    iget-object v1, v1, Lcom/google/android/gms/internal/measurement/h0;->c:Lcom/google/android/gms/internal/measurement/c;
+
+    .line 11
+    .line 12
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/l4;-><init>(Lcom/google/android/gms/internal/measurement/c;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-object v0
+
+    .line 16
+    :pswitch_0
+    new-instance v0, Lcom/google/android/gms/internal/measurement/l4;
+
+    .line 17
+    .line 18
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/a;->r:Lcom/google/android/gms/internal/measurement/h0;
+
+    .line 19
+    .line 20
+    iget-object v1, v1, Lcom/google/android/gms/internal/measurement/h0;->d:Lcom/google/android/gms/internal/measurement/j3;
+
+    .line 21
+    .line 22
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/l4;-><init>(Lcom/google/android/gms/internal/measurement/j3;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-object v0
+
+    .line 26
+    nop
+
+    .line 27
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

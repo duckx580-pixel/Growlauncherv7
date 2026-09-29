@@ -1,0 +1,92 @@
+.class public final Llauncher/powerkuy/growlauncher/manager/MacManager$getGidUsed$$inlined$map$1;
+.super Ljava/lang/Object;
+.source "r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3"
+
+# interfaces
+.implements Lrh/h;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Llauncher/powerkuy/growlauncher/manager/MacManager;->getGidUsed()Lrh/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lrh/h;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic $this_unsafeTransform$inlined:Lrh/h;
+
+
+# direct methods
+.method public constructor <init>(Lrh/h;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Llauncher/powerkuy/growlauncher/manager/MacManager$getGidUsed$$inlined$map$1;->$this_unsafeTransform$inlined:Lrh/h;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public collect(Lrh/i;Lug/c;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Llauncher/powerkuy/growlauncher/manager/MacManager$getGidUsed$$inlined$map$1;->$this_unsafeTransform$inlined:Lrh/h;
+
+    .line 2
+    .line 3
+    new-instance v1, Llauncher/powerkuy/growlauncher/manager/MacManager$getGidUsed$$inlined$map$1$2;
+
+    .line 4
+    .line 5
+    invoke-direct {v1, p1}, Llauncher/powerkuy/growlauncher/manager/MacManager$getGidUsed$$inlined$map$1$2;-><init>(Lrh/i;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-interface {v0, v1, p2}, Lrh/h;->collect(Lrh/i;Lug/c;)Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    sget-object p2, Lvg/a;->i:Lvg/a;
+
+    .line 13
+    .line 14
+    if-ne p1, p2, :cond_0
+
+    .line 15
+    .line 16
+    return-object p1
+
+    .line 17
+    :cond_0
+    sget-object p1, Lqg/o;->a:Lqg/o;
+
+    .line 18
+    .line 19
+    return-object p1
+.end method
